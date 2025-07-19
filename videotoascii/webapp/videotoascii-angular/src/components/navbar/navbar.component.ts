@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NAVBAR_TEXT } from '../../constants/text/navbar.text';
 
 @Component({
   selector: 'app-navbar',
@@ -10,5 +11,6 @@ import { Component } from '@angular/core';
 
 export class Navbar {
 
+  text = NAVBAR_TEXT;
 
 }
